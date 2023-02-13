@@ -5,7 +5,6 @@ const StyledButton = styled.button`
   border: 0.1rem solid transparent;
   background-color: #fff;
   padding: 0.8rem;
-
   :hover {
     border: 0.1rem solid rgba(22, 119, 255);
     cursor: pointer;

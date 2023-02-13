@@ -1,11 +1,10 @@
 import React from 'react'
 import type { IinputDatePicker } from './type'
-import GhostButton from '../GhostButton'
+import DatePicker from './DatePicker'
 export const InputDatePicker: IinputDatePicker = () => {
   return (
     <div>
-      InputDatePicker
-      <GhostButton>2</GhostButton>
+      <DatePicker calendar={{ year: 2023, monthIndex: 2 }} />
     </div>
   )
 }
