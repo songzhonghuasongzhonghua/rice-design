@@ -11,9 +11,8 @@ const StyledButton = styled.button`
     border-radius: 20%;
   }
 `
-const GhostButton: FC<React.PropsWithChildren> = (props) => {
-  const { children } = props
-  return <StyledButton>{children}</StyledButton>
+const GhostButton: FC<React.PropsWithChildren > = ({ children, ...props }) => {
+  return <StyledButton {...props}>{children}</StyledButton>
 }
 
 export default GhostButton

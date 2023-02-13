@@ -4,7 +4,7 @@ import DatePicker from './DatePicker'
 export const InputDatePicker: IinputDatePicker = () => {
   return (
     <div>
-      <DatePicker calendar={{ year: 2023, monthIndex: 2 }} />
+      <DatePicker calendar={{ year: 2023, monthIndex: 1 }} />
     </div>
   )
 }
